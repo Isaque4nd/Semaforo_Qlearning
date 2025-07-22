@@ -85,13 +85,3 @@ Os resultados das simulações (tempo médio de espera, fluxo de veículos, etc.
 - `priority_log.csv`
 
 ---
-
-## 🤝 Contribuições
-Contribuições são bem-vindas! Sinta-se livre para abrir *issues* ou enviar *pull requests*.
-
----
-
-## 📜 Licença
-Este projeto está licenciado sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
