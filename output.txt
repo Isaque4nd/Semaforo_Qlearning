@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\EDMILSON\Downloads\alterar relatorios\comparar_resultados.py", line 805, in <module>
+    html_geral_vs_prioritarios = """
+                                 ^^^
+KeyError: ' font-family'

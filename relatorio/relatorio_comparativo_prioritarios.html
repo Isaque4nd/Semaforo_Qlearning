@@ -1,0 +1,56 @@
+
+<html>
+<head>
+    <title>Relatório Comparativo de Veículos Prioritários: Tempo Fixo vs Q-Learning</title>
+</head>
+<body>
+    <h1>Relatório Comparativo de Veículos Prioritários: Tempo Fixo vs Q-Learning</h1>
+    <p>Este relatório compara o desempenho dos algoritmos Tempo Fixo e Q-Learning especificamente para veículos prioritários (emergência e autoridade).</p>
+    
+    <h2>Métricas para Tempo de Espera - Emergência</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>4.92</td><td>7.41</td><td>26.00</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>2.21</td><td>5.03</td><td>13.50</td><td>0.00</td></tr>
+    </table>
+    
+    <h2>Métricas para Tempo de Espera - Autoridade</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>2.48</td><td>6.38</td><td>26.00</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>2.57</td><td>6.80</td><td>18.00</td><td>0.00</td></tr>
+    </table>
+    
+    <h2>Métricas Gerais para Veículos Prioritários</h2>
+    <h3>Carros Parados Prioritários</h3>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>1.13</td><td>1.27</td><td>7.00</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>0.36</td><td>0.93</td><td>3.00</td><td>0.00</td></tr>
+    </table>
+    
+    <h3>Total Paradas Prioritários</h3>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>1.13</td><td>1.27</td><td>7.00</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>0.36</td><td>0.93</td><td>3.00</td><td>0.00</td></tr>
+    </table>
+    
+    <h3>Tempo Espera Prioritários</h3>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>5.12</td><td>7.67</td><td>26.00</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>1.21</td><td>4.00</td><td>15.00</td><td>0.00</td></tr>
+    </table>
+    
+    <h3>Velocidade Média Prioritários</h3>
+    <table border='1' cellpadding='5'>
+      <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Tempo Fixo</td><td>5.32</td><td>5.30</td><td>13.82</td><td>0.00</td></tr>
+      <tr><td>Q-Learning</td><td>1.46</td><td>3.89</td><td>13.29</td><td>0.00</td></tr>
+    </table>
+    
+    <h2>Comparação de Médias - Prioritários</h2>
+    <img src='comparacao_medias_prioritarios.png' alt='Comparação de Médias - Prioritários'>
+</body>
+</html>
